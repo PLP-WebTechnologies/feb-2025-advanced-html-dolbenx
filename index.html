@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Davies Forms</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Steps to Register:</h2>
+        <ol type="I">
+            <li>Fill in your personal details</li>
+            <li>Choose your preferences</li>
+            <li>Submit your registration</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Us</h2>
+        <img src="https://images.pexels.com/photos/1704127/pexels-photo-1704127.jpeg" alt="Beautiful Landscape" width="600">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact Information</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St, City</td>
+                <td>123-456-7890</td>
+                <td>jdolben800@gmail</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak St, Town</td>
+                <td>987-654-3210</td>
+                <td>jane.smith@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Emily Clark</td>
+                <td>789 Pine St, Village</td>
+                <td>555-123-4567</td>
+                <td>emily@gmail</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>321 Birch St, City</td>
+                <td>555-765-4321</td>
+                <td>michaelbrown@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Alice White</td>
+                <td>654 Cedar St, Town</td>
+                <td>555-321-9876</td>
+                <td>alicewhite@gmail.com</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Register Here</h2>
+        <form action="#" method="post">
+            <!-- Name Field -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown Menu -->
+            <label for="country">Select Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Choose a country</option>
+                <option value="Zambia">Zambia</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Kenya">Kenya</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <fieldset>
+                <legend>Gender:</legend>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+            </fieldset><br><br>
+
+            <!-- Checkboxes -->
+            <fieldset>
+                <legend>Select your interests:</legend>
+                <label for="news">Receive Newsletters</label>
+                <input type="checkbox" id="news" name="interests" value="news"><br>
+                <label for="updates">Receive Updates</label>
+                <input type="checkbox" id="updates" name="interests" value="updates"><br>
+            </fieldset><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Audio Element -->
+    <section>
+        <h2>Background Music</h2>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- Video Element -->
+    <section>
+        <h2>Video Presentation</h2>
+        <video width="320" height="240" controls>
+            <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us: <a href="dolben800@gmail.com">dolben800@gmail.com</a></p>
+    </footer>
+</body>
+</html>
